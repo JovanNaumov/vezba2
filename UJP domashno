@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>UJP - Uprava za javni prihodi</title>
+    </head>
+
+    <body>
+        
+        <h1><img src="./bf26253d7b8f171dddb155f84ce1d562_XL.jpg" width="100" />ПРИЈАВА</h1>
+        <h3>за вработување во Управа за јавни приходи</h3>
+        
+        <hr />
+<form>
+<p>
+    <h5>* Пополнува Управа за јавни приходи</h5>
+    <label for="text"><b>Број на оглаc</b></label>
+    <input type="number" min="0" max="9" size="1" />
+    <input type="number" min="0" max="9" size="1" />
+    <label for="text">/</label>
+    <input type="number" min="0" max="9" />
+    <input type="number" min="0" max="9" />
+    <input type="number" min="0" max="9" />
+    <input type="number" min="0" max="9" />
+
+</p> 
+
+<p>
+    <label for="text"><b>Реден број на работно 
+        место за кое аплицирате</b></label>
+    <input type="text" size="20" />
+</p>    
+<hr />
+    <h3>ЛИЧНИ ПОДАТОЦИ</h3>
+<hr />
+
+<p>
+    <label for="name-surname"><b>Име и презиме</label>
+    <input type="text" size="20" />
+</p>
+    
+<p>
+    <label for="date"><b>Датум на раѓање</b></label>
+    <input type="number" size="10" min="0" max="31" />
+    <input type="number" size="10" min="0" max="12" />
+    <input type="number" size="10" min="1900" max="2022" />
+    <label for="id-sex"><b>Пол</b></label>
+    <input name="sex" type="checkbox" value="Машко" />
+    <label for="sex">Машко</label>
+    <input name="sex" type="checkbox" value="Женскo" />
+    <label for="sex">Женскo</label>
+    <label for="id-mk"><b>Државјанин на РМ</b> </label>
+    <input name="МK" type="checkbox" value="Да" />
+    <label for="МK">Да</label> 
+    <input name="МK" type="checkbox" value="Не" />
+    <label for="МK">Не</label>
+</p> 
+<p>
+    <label for="address"><b>Адреса</b></label>
+    <input type="text" size="30" />
+</p>
+<p>
+    <label for="contact"><b>Контакт</b></label>
+    <label for="number-tel"><b>Телефон</b></label>
+    <input type="text" size="10" />
+    <label for="email"><b>е-Пошта</b></label>
+    <input type="email" sieze="30" />
+</p>
+<hr />
+    <h3>ОБРАЗОВАНИЕ</h3>
+<hr />
+<p>
+    <label for="education"><b>Образовна институција</b></label>
+    <input type="text" size="70" />
+</p>    
+
+<p>
+    <label for="education"><b>Насока на завршено 
+        образование / смер</b></label>
+     <input type="text" size="70" />
+
+</p>
+
+<p>
+    <label for="stepen-education"><b>Степен на образование</b></label>
+    <input name="stepen-education" type="checkbox" value="IV">
+    <label name="stepen-education">IV</label>
+    <input name="stepen-education" type="checkbox" value="VI">
+    <label name="stepen-education">VI</label>
+    <input name="stepen-education" type="checkbox" value="VII/1">
+    <label name="stepen-education">VII/1</label>
+    <input name="stepen-education" type="checkbox" value="VII/2">
+    <label name="stepen-education">VII/2</label>
+    <input name="stepen-education" type="checkbox" value="VIII">
+    <label name="stepen-education">VIII</label>
+    <input name="stepen-education" type="checkbox" value="ЕКТС">
+    <input name="stepen-education"><b>ЕКТС</b></label>
+    <input type="number" min="0" max="9999" />
+    <label for="number"><b>кредити</b></label>
+</p>
+<p>
+    <label for="text"><b>Просечна оцена</b></label>
+    <input type="number" min="0" max="9999" />
+</p>
+<hr />
+    <h3>РАБОТНО ИСКУСТВО</h3>
+<hr />
+
+<p>
+    <label for="experience"><b>Работно искуство</b></label>
+    <input name="experience" type="checkbox" value="Да" />
+    <label name="experience">Да</label>
+    <input name="experience" type="checkbox" value="Не" />
+    <label name="experience">Не</label>
+</p>
+<p>
+    <label for="text"><b>Вкупен работен стаж</b></label>
+    <input type="number" min="0" max="70" />
+    <label for="text"><b>години</b></label>
+    <input type="number" min="0" max="12" />
+    <label for="text"><b>месеци</b></label>
+    <label for="text"><b>Работно искуство во струката</b></label>
+    <input type="number" min="0" max="70" />
+    <label for="text"><b>години</b></label>
+    <input type="number" min="0" max="12" />
+    <label for="text"><b>месеци</b></label>
+
+</p>
+<p>
+    <label for="text"><b>Област во која е стекнато 
+        работното искуствo</b></label>
+    <input type="text" size="70" />    
+</p>
+<hr />
+ <h3>ВЕШТИНИ</h3>
+ <hr />
+ <table border="4">
+    <tr>
+    <td>Познавање на јазици  </td>
+    <td> <input type="text"> </td>
+    </tr>
+    <tr>
+    <td>Комјутерски вештини </td>
+    <td><input type="text"></td>
+    </tr>
+    <tr>
+    <td>Возачка дозвола (категорија) </td>
+    <td><input type="text"></td>
+    </tr>
+    <tr>
+    <td>Други персонални способности и вештини </td> <td><input type="text"></td> </tr>
+    </tr>
+    </table>
+    <hr />
+<h3>ИЗЈАВА</h3>
+<hr />
+<table border="4">
+<tr>
+<td>   Изјавувам под морална, материјална и кривична одговорност, дека податоците наведени во оваа пријава се веродостојни и дека на барање на 
+    Управата за јавни приходи ќе доставам докази, во оригинал или копија заверена кај нотар.
+    Се согласувам личните податоци наведени во пријавата да се користат исклучиво за цели на постапката на вработување во Управата за јавни приходи.
+</td>    
+</tr>
+</table>
+<hr />
+<h3>ПОДАТОЦИ ЗА ПОДНОСИТЕЛОТ НА ПРИЈАВАТА</h3>
+<hr />
+<p>
+    <label for="text"><b>Потпис</b></label>
+    <input type="text" size="10" />
+    <label for="text"><b>Датум на 
+        поднесување</b></label>
+     <input type="date" size="1" />
+ <hr />       
+</p>
+<p>
+    * Образецот е објавен на веб страницата на УЈП <a href="http://www.ujp.gov.mk/s/obrasci/opis/105">http://www.ujp.gov.mk/s/obrasci/opis/105</a>
+<hr />
+</p>
+
+
+
+
+  </body>
+</html>
